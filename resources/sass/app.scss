@@ -1,0 +1,120 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-pink {
+    background-color: #DF4775;
+}
+
+.nav-hp {
+    display: none;
+    background-color: #DF4775;
+}
+
+.banner {
+    height: 100vh;
+}
+
+.bg {
+    width: 100%;
+}
+
+.banner-desc {
+    height: 100vh;
+}
+
+.sec-table {
+    height: 100vh;
+}
+
+.shapes {
+    width: 65%;
+    height: 80%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    top: -45px;
+    background-color: #3FC1C9;
+}
+
+.button-profile {
+    border-radius: 9999px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // text-align: center;
+    color: white;
+    width: 55%;
+    background-color: #FC5185;
+    // font
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Bitter", serif;
+}
+
+.text-banner {
+    font-family: "Bitter", serif;
+}
+
+.button-profile:hover {
+    background-color: #DF4775;
+}
+
+.font-title-name {
+    font-size: 1.5rem;
+    color: #3FC1C9;
+}
+
+.font-title {
+    font-size: 5rem;
+}
+
+.arow-left-btn {
+    background-color: aqua;
+    border-radius: 100%;
+}
+
+.img-profile {
+    margin-top: 31%;
+}
+
+// .button-profile:hover{
+//     background-color: ;
+// }
+.footer {
+    // position: ;
+    // bottom: 0;
+    // left: 0;
+    // width: 100%;
+    margin-top: 100px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .nav-hp {
+        display: block;
+    }
+    .banner {
+        height: 0vh;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        // font-weight: <weight>;
+        // font-style: normal;
+    }
+    .nav-brand-2 {
+        display: none;
+    }
+    .shapes {
+        top: 0px;
+        width: 65%;
+        height: 80%;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        top: -45px;
+        background-color: #3FC1C9;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
